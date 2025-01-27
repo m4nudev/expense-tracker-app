@@ -7,7 +7,7 @@ function ExpenseItem({ id, description, amount, date }) {
 
     const navigation = useNavigation();
 
-    function expenseHandler() {
+    function expensePressHandler() {
         navigation.navigate('ManageExpense', {
             expenseId: id
         });
@@ -15,7 +15,7 @@ function ExpenseItem({ id, description, amount, date }) {
 
 
     return (
-        <Pressable onPress={expenseHandler}
+        <Pressable onPress={expensePressHandler}
             style={({ pressed }) => pressed && styles.pressed}
         >
             <View style={styles.expenseItem}>

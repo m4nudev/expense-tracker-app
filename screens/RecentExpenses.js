@@ -1,8 +1,8 @@
 import ExpensesOutput from "../components/ExpensesOutput/ExpensesOutput";
 import { useContext, useEffect, useState } from "react";
-import { ExpensesContext } from "../../store/expenses-context";
-import { getDateMinusDays } from "../../utils/date";
-import { fetchExpenses } from "../../utils/http";
+import { ExpensesContext } from "../store/expenses-context";
+import { getDateMinusDays } from "../utils/date";
+import { fetchExpenses } from "../utils/http";
 import LoadingOverlay from "../components/UI/LoadingOverlay";
 import ErrorOverlay from "../components/UI/ErrorOverlay";
 

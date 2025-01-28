@@ -2,10 +2,10 @@
 import { useContext, useLayoutEffect, useState } from "react";
 import { StyleSheet, TextInput, View } from "react-native";
 import IconButton from "../components/UI/IconButton";
-import { GlobalStyles } from "../../constants/styles";
-import { ExpensesContext } from "../../store/expenses-context";
+import { GlobalStyles } from "../constants/styles";
+import { ExpensesContext } from "../store/expenses-context";
 import ExpenseForm from "../components/ManageExpense/ExpenseForm";
-import { deleteExpense, storeExpense, updateExpense } from "../../utils/http";
+import { deleteExpense, storeExpense, updateExpense } from "../utils/http";
 import LoadingOverlay from "../components/UI/LoadingOverlay";
 import ErrorOverlay from "../components/UI/ErrorOverlay";
 

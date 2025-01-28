@@ -2,12 +2,12 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { StatusBar } from 'expo-status-bar';
-import ManageExpense from './app/screens/ManageExpense';
-import RecentExpenses from './app/screens/RecentExpenses';
-import AllExpenses from './app/screens/AllExpenses';
+import ManageExpense from './screens/ManageExpense';
+import RecentExpenses from './screens/RecentExpenses';
+import AllExpenses from './screens/AllExpenses';
 import { GlobalStyles } from './constants/styles';
 import { Ionicons } from '@expo/vector-icons'
-import IconButton from './app/components/UI/IconButton';
+import IconButton from './components/UI/IconButton';
 import ExpensesContextProvider from './store/expenses-context';
 
 const Stack = createNativeStackNavigator();

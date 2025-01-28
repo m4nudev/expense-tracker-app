@@ -1,7 +1,7 @@
 
 import { View, StyleSheet, Text } from 'react-native';
 
-import { GlobalStyles } from '../../../constants/styles';
+import { GlobalStyles } from '../../constants/styles';
 
 function ErrorOverlay({ message }) {
     return (

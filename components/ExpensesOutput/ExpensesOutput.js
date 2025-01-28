@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from "react-native";
 import ExpensesSummary from "./ExpensesSummary";
 import ExpensesList from "./ExpensesList";
-import { GlobalStyles } from "../../../constants/styles";
+import { GlobalStyles } from "../../constants/styles";
 
 
 function ExpensesOutput({ expenses, expensesPeriod, fallbackText }) {
